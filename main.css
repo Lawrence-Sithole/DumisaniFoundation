@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading {
+  background-color: rgb(30, 80, 30);
+  border: solid;
+  color: whitesmoke;
+  text-align: center;
+  padding: 0.75rem;
+}
+.objectives-wrapper {
+  background-color: bisque;
+  padding: 1%;
+}
+.objectives {
+  background-color: azure;
+  text-align: center;
+  justify-content: center;
+}
+.objectives-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.mtshabezi-boys {
+  object-fit: contain;
+  min-width: 150px;
+  max-width: 200px;
+  background-color: aqua;
+}
+.objectives-copy {
+  line-height: 1.5;
+  background-color: rgb(206, 184, 226);
+  display: grid;
+  grid-template-columns: auto;
+}
+.charity-number {
+  text-align: end;
+  font-size: 0.5em;
+}
