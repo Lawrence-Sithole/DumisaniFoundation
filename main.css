@@ -21,21 +21,16 @@
   justify-content: center;
 }
 .objectives-content {
-  display: flex;
-  flex-wrap: wrap;
-}
-.mtshabezi-boys {
-  object-fit: contain;
-  min-width: 150px;
-  max-width: 200px;
-  background-color: aqua;
-}
-.objectives-copy {
-  line-height: 1.5;
-  background-color: rgb(206, 184, 226);
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 3fr;
 }
+.nada {
+  background-color: blue;
+}
+.nado {
+  background-color: rgb(200, 255, 0);
+}
+
 .charity-number {
   text-align: end;
   font-size: 0.5em;
