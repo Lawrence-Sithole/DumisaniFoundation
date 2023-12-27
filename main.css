@@ -35,3 +35,7 @@
   text-align: end;
   font-size: 0.5em;
 }
+.footer {
+  background: #353535;
+  height: 20px;
+}
